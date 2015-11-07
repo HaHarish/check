@@ -1,0 +1,64 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">NIDA Rooms</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+
+    <string name="email">Email</string>
+    <string name="check_email_for_password_reset_link">Check Email for Password Reset Link</string>
+    <string name="send">SEND</string>
+
+    <string name="customer">Customer</string>
+    <string name="to_become_nida_rooms_agent">To Become NIDA Rooms Agent</string>
+    <string name="travel_expert">Travel Expert</string>
+    <string name="taxi_driver">Taxi Driver</string>
+
+    <string name="name">Name</string>
+    <string name="mobile_number">Mobile Number</string>
+
+    <string name="agency_name">Agency Name</string>
+    <string name="contact_person">Contact Person</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="id_no">ID No</string>
+    <string name="id_holder_name">ID Holder Name</string>
+    <string name="nature_of_business">Nature of Business</string>
+
+    <string name="search_country">Search Country</string>
+
+    <string name="otp_statement">A One Time Password (OTP) will be send via</string>
+    <string name="sms">SMS to Verify Your Number</string>
+
+    <string name="d_o_b">Date of Birth</string>
+    <string name="driving_licence_number">Driving Licence Number</string>
+    <string name="badge_number">Badge Number</string>
+
+    <string name="otp">OTP</string>
+    <string name="verify">VERIFY</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="lorem_ipsum"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et magna ut erat elementum cursus in quis ipsum. Nam faucibus ultrices eros, vel tempor leo semper sit amet. Duis magna quam, congue vitae interdum nec, condimentum ut lectus. Sed commodo venenatis eros a dignissim. Nunc adipiscing turpis nec magna venenatis at ultricies ipsum bibendum. Sed volutpat urna quis nisi vulputate egestas. Etiam eu dui a enim lacinia dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n\nPhasellus orci mi, eleifend nec congue id, volutpat at neque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer semper velit vel leo rutrum sed fermentum elit porta.]]></string>
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: Lorem
+        Ipsum</string>
+
+    <!-- Actions -->
+    <string name="action_toggle">Toggle indicator</string>
+    <string name="action_add_item">Add item</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_info">Photo info</string>
+    <string name="action_photo">View photo</string>
+
+</resources>

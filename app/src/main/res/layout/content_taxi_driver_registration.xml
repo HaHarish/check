@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:showIn="@layout/activity_taxi_driver_registration" tools:context=".TaxiDriverRegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="15">
+
+        <!-- EditText for Name -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver Email-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver Date of Birth-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_date_of_birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/d_o_b"
+                android:singleLine="true"
+                android:focusable="false"
+                android:clickable="true"
+                android:cursorVisible="false"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver Username-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/user_name"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver Password-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:singleLine="true"
+                android:inputType="textPassword"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver Confirm Password-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirm_password"
+                android:singleLine="true"
+                android:inputType="textPassword"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver Licence Number-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_driving_licence_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/driving_licence_number"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver Badge Number-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_badge_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/badge_number"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <!-- Taxi Driver Mobile Number Code-->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <EditText android:id="@+id/edittext_taxi_driver_mobile_number_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+62"
+                    android:hint="Code"
+                    android:singleLine="true"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:cursorVisible="false"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Taxi Driver Mobile Number -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp">
+
+                <EditText android:id="@+id/edittext_taxi_driver_mobile_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/mobile_number"
+                    android:singleLine="true"
+                    android:maxLength="10"
+                    android:inputType="number"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <!-- Taxi Driver Country -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indonesia"
+                android:hint="@string/country"
+                android:singleLine="true"
+                android:focusable="false"
+                android:clickable="true"
+                android:cursorVisible="false"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver State-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/state"
+                android:text="Jakarta"
+                android:singleLine="true"
+                android:focusable="false"
+                android:clickable="true"
+                android:cursorVisible="false"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver City -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/city"
+                android:text="Bali"
+                android:singleLine="true"
+                android:focusable="false"
+                android:clickable="true"
+                android:cursorVisible="false"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Taxi Driver Zipcode-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/edittext_taxi_driver_zip_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/zip_code"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Button to Create Account -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_taxi_driver_create_account"
+            android:background="@drawable/button_background"
+            android:text="@string/create_account"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/activity_elements_margin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/activity_elements_margin">
+
+            <me.grantland.widget.AutofitTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="By Creating Account, I Agree to NIDA Rooms"
+                android:layout_gravity="center"
+                android:textColor="@color/colorFontHintGrey"
+                android:singleLine="true"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <me.grantland.widget.AutofitTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview_terms_and_conditions"
+                    android:text="Terms and Conditions"
+                    android:textColor="@color/colorPrimary"
+                    android:singleLine="true"/>
+
+                <me.grantland.widget.AutofitTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview_and"
+                    android:text=" and "
+                    android:textColor="@color/colorFontHintGrey"/>
+
+                <me.grantland.widget.AutofitTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview_privacy_and_policy"
+                    android:text="Privacy and Policy"
+                    android:textColor="@color/colorPrimary"
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
