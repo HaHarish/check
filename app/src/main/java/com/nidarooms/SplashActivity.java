@@ -15,6 +15,7 @@ import com.nidarooms.login.LoginActivity;
  */
 public class SplashActivity extends AppCompatActivity {
 
+    /** Hello Amal Ajith */
     /** Set Time out for Splash Activity */
     private static int SPLASH_TIME_OUT = 3000;
 
